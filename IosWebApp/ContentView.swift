@@ -4,16 +4,13 @@
 //
 //  Created by macbook air on 5/9/23.
 //
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+           WebViewWrapper()
+
         }
         .padding()
     }
@@ -24,3 +21,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

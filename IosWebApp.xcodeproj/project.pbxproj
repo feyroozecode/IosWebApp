@@ -14,6 +14,8 @@
 		D07E09642AA79F7000151526 /* IosWebAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07E09632AA79F7000151526 /* IosWebAppTests.swift */; };
 		D07E096E2AA79F7000151526 /* IosWebAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07E096D2AA79F7000151526 /* IosWebAppUITests.swift */; };
 		D07E09702AA79F7000151526 /* IosWebAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07E096F2AA79F7000151526 /* IosWebAppUITestsLaunchTests.swift */; };
+		D07E097D2AA7D05200151526 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07E097C2AA7D05100151526 /* WebViewController.swift */; };
+		D07E097F2AA7D0A800151526 /* WebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07E097E2AA7D0A800151526 /* WebViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D07E09692AA79F7000151526 /* IosWebAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosWebAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07E096D2AA79F7000151526 /* IosWebAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosWebAppUITests.swift; sourceTree = "<group>"; };
 		D07E096F2AA79F7000151526 /* IosWebAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosWebAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D07E097C2AA7D05100151526 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D07E097E2AA7D0A800151526 /* WebViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				D07E09552AA79F6F00151526 /* Assets.xcassets */,
 				D07E09572AA79F6F00151526 /* IosWebApp.entitlements */,
 				D07E09582AA79F6F00151526 /* Preview Content */,
+				D07E097C2AA7D05100151526 /* WebViewController.swift */,
+				D07E097E2AA7D0A800151526 /* WebViewWrapper.swift */,
 			);
 			path = IosWebApp;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07E09542AA79F6B00151526 /* ContentView.swift in Sources */,
+				D07E097F2AA7D0A800151526 /* WebViewWrapper.swift in Sources */,
+				D07E097D2AA7D05200151526 /* WebViewController.swift in Sources */,
 				D07E09522AA79F6B00151526 /* IosWebAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
